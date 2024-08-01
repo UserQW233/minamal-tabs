@@ -1,0 +1,38 @@
+.folder {
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.folder:hover {
+    background-color: #555;
+}
+
+.folder-contents {
+    margin-left: 20px;
+    margin-top: 5px;
+    display: none;
+}
+
+.folder-contents.open {
+    display: block;
+}
+
+/* Стили для текста ссылки внутри папки */
+.folder-contents a {
+    color: #888; /* Серый цвет текста */
+    display: block;
+    padding-left: 10px; /* Отступ текста от левого края */
+}
+
+.folder-contents a:hover {
+    color: #bbb; /* Цвет текста при наведении */
+}
