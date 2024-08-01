@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Мои закладки",
+  "version": "1.0",
+  "description": "Отображает закладки пользователя на стартовой странице новой вкладки.",
+  "permissions": ["bookmarks"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
